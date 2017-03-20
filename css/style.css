@@ -1,0 +1,21 @@
+/*
+ * This stylesheet and its parent CSS directory can be removed if you copy the single-project.php file from
+ * the parent Divi folder, place it in your child-theme folder, and rename it single-listings.php
+ * (or single-[INSERT YOUR POST TYPE].PHP)
+ */
+
+.et_pb_pagebuilder_layout.single-listing #page-container .et_pb_row {
+    width: 100%;
+}
+.et_pb_pagebuilder_layout.single-listing #page-container .et_pb_with_background .et_pb_row {
+    width: 80%;
+}
+
+/* FORMAT FOR ADDITIONAL POST TYPES
+.et_pb_pagebuilder_layout.single-POST_TYPE #page-container .et_pb_row {
+width: 100%;
+}
+.et_pb_pagebuilder_layout.single-POST_TYPE #page-container .et_pb_with_background .et_pb_row {
+width: 80%;
+}
+*/
